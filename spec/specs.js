@@ -1,6 +1,6 @@
 describe('countUp', function() {
     it("counts to a number by one", function(){
-        expect(countUpTo(1,10)).to.eql([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+        expect(countUpTo(1,10)).to.eql([1,2,3,4,5,6,7,8,9,10]);
     });
 
     it("starts counting from countUp to countTo by countUp", function(){

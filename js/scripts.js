@@ -10,10 +10,8 @@ var countUpTo = function(countUp, countTo){
 $(document).ready(function(){
     $("form#numbers").submit(function(event) {
         var countUp = parseInt($("input#countUp").val());
-        console.log(countUp);
         var countTo = parseInt($("input#countTo").val());
         var result = countUpTo(countUp, countTo);
-        console.log(result);
         $(".answer").text(result.join(", "));
         $("#result").show();
         event.preventDefault();
